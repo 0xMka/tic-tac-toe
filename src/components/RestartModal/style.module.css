@@ -1,0 +1,33 @@
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: #000000;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #1f3641;
+  height: 228px;
+  width: 100%;
+  margin-top: 220px;
+}
+
+.text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 1.5px;
+  color: #a8bfc9;
+  text-transform: uppercase;
+  margin: 16px;
+}

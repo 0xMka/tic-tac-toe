@@ -1,0 +1,46 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #1f3641;
+  box-shadow: inset 0px -8px 0px #10212a;
+  cursor: pointer;
+}
+
+.xWinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #31c3bd;
+  box-shadow: inset 0px -8px 0px #118c87;
+  cursor: pointer;
+}
+
+.oWinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #f2b137;
+  box-shadow: inset 0px -8px 0px #cc8b13;
+  cursor: pointer;
+}
+
+.img {
+  width: 40px;
+  height: 40px;
+}

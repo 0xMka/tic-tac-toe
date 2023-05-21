@@ -1,0 +1,27 @@
+.container {
+  width: 327px;
+  height: 56px;
+  margin: 8px;
+  border: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #1a2a33;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 460px;
+    height: 67px;
+    margin: 10px;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 1.25px;
+  }
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #1a2a33;
+}
+
+.silver {
+  background: #a8bfc9;
+  box-shadow: inset 0px -4px 0px #6b8997;
+}
+
+.silver:hover {
+  background: #dbe8ed;
+}
+
+.buttonHomeBlue {
+  background: #31c3bd;
+  box-shadow: inset 0px -8px 0px #118c87;
+}
+
+.buttonHomeBlue:hover {
+  background: #65e9e4;
+}
+
+.buttonHomeOrange {
+  background: #f2b137;
+  box-shadow: inset 0px -8px 0px #cc8b13;
+}
+
+.buttonHomeOrange:hover {
+  background: #ffc860;
+}
+
+.orange {
+  background: #f2b137;
+  box-shadow: inset 0px -4px 0px #cc8b13;
+}
+
+.orange:hover {
+  background: #ffc860;
+}
