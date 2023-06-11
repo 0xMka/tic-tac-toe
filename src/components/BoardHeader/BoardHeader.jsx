@@ -1,14 +1,14 @@
+import { ButtonRestart } from "../ButtonRestart/ButtonRestart";
 import { Logo } from "../Logo/Logo";
-import { PlayerTurn } from "../PlayerTurn/PlayerTurn";
-import { RestartButton } from "../RestartButton/RestartButton";
+import { PlayerTurnDisplay } from "../PlayerTurnDisplay/PlayerTurnDisplay";
 import s from "./style.module.css";
 
 export const BoardHeader = ({ xIsNext, logo, onClickBtn }) => {
   return (
     <div className={s.container}>
       <Logo logo={logo} />
-      <PlayerTurn xIsNext={xIsNext} />
-      <RestartButton onClickBtn={onClickBtn} />
+      <PlayerTurnDisplay xIsNext={xIsNext} />
+      <ButtonRestart onClickBtn={onClickBtn} />
     </div>
   );
 };

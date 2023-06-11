@@ -29,3 +29,11 @@
   text-transform: uppercase;
   color: #1a2a33;
 }
+
+@media (min-width: 768px) {
+  .container {
+    width: 140px;
+    height: 72px;
+    margin: 10px;
+  }
+}

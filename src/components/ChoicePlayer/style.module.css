@@ -43,6 +43,11 @@
   height: 54px;
   background: transparent;
   border-radius: 10px;
+  cursor: pointer;
+}
+
+.background_choicePlayer {
+  background-color: #a8bfc9;
 }
 
 .choicePlayer {

@@ -1,16 +1,18 @@
 import s from "./style.module.css";
 import xIcon from "../../assets/icon-x.svg";
-import xIconOutline from "../../assets/icon-x-outline.svg";
+import xIconWin from "../../assets/icon-x-win.svg";
 import oIcon from "../../assets/icon-o.svg";
-import oIconOutline from "../../assets/icon-o-outline.svg";
+import oIconWin from "../../assets/icon-o-win.svg";
 
 export const Square = ({ value, onClickSquare, winningSquares }) => {
-  const styleWinner = (winningSquares, value) => {
+  const colorBg = () => {
     if (winningSquares) {
       if (value === "X") {
-        return "s.xWinner";
+        return s.xWinner;
       } else if (value === "O") {
-        return "s.oWinner";
+        return s.oWinner;
+      } else {
+        return;
       }
     }
   };
@@ -18,9 +20,9 @@ export const Square = ({ value, onClickSquare, winningSquares }) => {
   const styleIcon = () => {
     if (winningSquares) {
       if (value === "X") {
-        return xIconOutline;
+        return xIconWin;
       } else if (value === "O") {
-        return oIconOutline;
+        return oIconWin;
       }
     } else {
       if (value === "X") {
@@ -32,10 +34,7 @@ export const Square = ({ value, onClickSquare, winningSquares }) => {
   };
 
   return (
-    <button
-      className={`${s.btn} ${styleWinner(winningSquares, value)}`}
-      onClick={onClickSquare}
-    >
+    <button className={`${s.btn} ${colorBg()}`} onClick={onClickSquare}>
       {value && <img className={s.img} src={styleIcon()} alt={value} />}
     </button>
   );
